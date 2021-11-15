@@ -39,7 +39,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### Resume
 
-![Resume](https://github.com/RicardoFrankBarrera/Professional-Portfolio/blob/main/Resume/Ricardo%20Frank%20Barrera%20-%202021%20Resume%20(Beautiful).pdf?raw=true)
+![Resume](https://github.com/RicardoFrankBarrera/Professional-Portfolio/blob/main/Resume/Ricardo%20Frank%20Barrera%20-%202021%20Resume%20(Beautiful).jpg?raw=true)
 
 ### One-pagers
 
