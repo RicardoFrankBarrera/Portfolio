@@ -1,6 +1,6 @@
 ---
 title: Markov Model
-layout: template
+layout: default
 filename: markov-model.md
 --- 
 
@@ -30,4 +30,4 @@ The benefits of effectively modeling the system for this narrow goal were surpri
 
 ![Markov](https://github.com/RicardoFrankBarrera/Professional-Portfolio/blob/main/Project%20one-pagers/01%20Storage%20Markov%20Model.jpg?raw=true)
 
-
+[Back](./)
