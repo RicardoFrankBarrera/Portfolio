@@ -6,7 +6,7 @@ I'm Ricardo Frank Barrera, a Program Manager and Data Scientist and this is my G
 
 In here and in my GitHub repository, you'll find:
 
-* My latest and greatest resume,
+* My latest and greatest [resume](https://github.com/RicardoFrankBarrera/Professional-Portfolio/blob/main/Resume/Ricardo%20Frank%20Barrera%20-%202021%20Resume%20(Beautiful).pdf),
 * Write-ups regarding professional projects I've done, specifically describing the context along with a high-level overview (e.g., goals, approach, impact, and lessons),
 * Code I've written for various projects, 
 * Data science projects I've developed and models I've trained
@@ -14,10 +14,6 @@ In here and in my GitHub repository, you'll find:
 Thanks for stopping by!
 
 Ricardo
-
-### Resume
-
-![Resume](https://github.com/RicardoFrankBarrera/Professional-Portfolio/blob/main/Resume/Ricardo%20Frank%20Barrera%20-%202021%20Resume%20(Beautiful).jpg?raw=true)
 
 ### Professional Projects
 
@@ -88,13 +84,65 @@ I left Accolade shortly deploying this service so I didn't get to see further it
 ![Accolade Recommendation System](https://github.com/RicardoFrankBarrera/Professional-Portfolio/blob/main/Project%20one-pagers/06%20Health%20Assistant%20Recommendation%20System.jpg?raw=true)
 
 #### @My Startup: Real Estate Investment Recommendation System
-Shortly after I left Accolade, I began to improve upon some 
+Shortly after I left Accolade, I began to improve upon some personal analytics tools I made for my real estate investment hobby. I was curious to see how much of my process I could automate and what the user-experience would be like as I automated more of it.
 
-Play with my deep-learning neural net and see what it thinks of a home you present it with.
+For those unfamiliar with real estate investing, there are some interesting data problems providing fun challenges. For instance:
 
-This project was inspired by some basic tooling I created for myself as a real-estate investor to automate my search and analysis process. Real-estate investment has a lot of subjectivity and nuance, and data is sparse, limited, inconsistent
+* data is **incomplete** 
+	* much of the data on a home is not available, such as age of infrastructure like plumbing
+* data is **inconsistent**
+	* a lot of data is manually entered by different entities so errors are common
+* data is **biased**
+	* homes being listed for sale / rent are presented with bias
+* data is **stale**
+	* housing records don't update often
+* data is **subjective**
+	* some data like neighborhood crime statistics has subjectivity 
+* data is **expensive to collect**
+	* getting a home inspector, for example, may cost $300 to $500
+
+So, I set out to see if I could infer as much information as possible from what was available online in an automated fashion. There are plenty of sites with records written records (e.g., county records indicating square footage), but the one really valuable untapped resource at the time was the property's photos.  
+
+Analyzing imagery is really, really hard and there was no chance I'd be able to create my own image analyzer from scratch that was worth anything. However, a few events coincided that made this approachable:
+
+1. Tensorflow had recently come out and made deep learning more approachable,
+2. Google released [Inception](https://ai.googleblog.com/2016/03/train-your-own-image-classifier-with.html), an AI model to classify images
+
+I believed I could shoehorn Google's Inception model for my purposes (known as Transfer Learning) and retrain it on my own custom-labeled dataset. The retraining worked and I was able to get a reasonably effective (based upon my judgment) neural network to judge the quality of a home based upon photos.
+
+Play with it and see for yourself! (TODO: link URL)
+
+Emboldened by my success with the Neural Network, I decided to work on creating a Real Estate Investment Advisor platform where residential homebuyers could rely upon and learn from to become their own best advocate in an ecosystem notorious for taking advantage of the ignorant and unprepared. I'm passionate about fairness and education, and I'd seen many examples of friends suffering immensely because of poor real estate choices. Ideally, I'd be able to make a decent cashflowing business in the process. 
+
+Building the Minimum Viable Product (MVP) for the platform took quite a bit of work for many reasons:
+
+1. The data ecosystem in real estate is a mess,
+2. Building analytics and insights on top of poor quality data is not acceptable,
+3. I didn't want to spend a lot of cash paying for data,
+4. The user-experience needed to be very simple and approachable so users had no excuse not to try it
+
+This meant I needed to develop a fleet of webscrapers for each data source, merge the records together into a unified entity record, perform extensive data cleaning and imputation, and then build a clean, comprehensive, and sensible data ecosystem. The logic for merging entity records together was thankfully greatly simplified by using Google Maps API, among other resources.
+
+Once I'd created the dataset for the Pacific Northwest, I proceeded with feature engineering to tease apart additional insights and signals from the data; for example, there is a lot of value in spotting differences in records across different platforms for the same entity.
+
+I also began building analytics on top of the curated dataset to gather valuable statistics (e.g., rental distributions per sqft / bedroom / zip code), sale statistics (e.g., days on market heatmaps), and so on. It was better for me to think of all of the features and statistics which could possibly be useful and prune down after the fact because creative data and modeling insights come from having more information presented. Once I'd gotten all of the analytics and insights I wanted for the MVP, I proceeded with automating the Comparative Market Analysis (CMA) report.
+
+Many residential homebuyers rely upon their realtor to generate a CMA report to justify their opinion on a home's Fair Market Value. In an ideal world, this would be consistent and valuable, but the reality is most realtors carelessly select whatever is convenient to justify their end goal (e.g., get the buyer to spend more so they receive a larger commission). Good realtors, however, actually do spend quite a bit of time to do this. An automated CMA would ideally reduce bias, save time, and provide additional statistics and insights not available on other platforms.
+
+Explainability and conciseness is important, so the initial CMA report was intentionally scoped on just the most important features (e.g., size in sq. ft, # of beds, # of baths, etc.), a list of comparables specifying which were used for the estimate and which were excluded, and a price estimate. The comparables selection algorithm used a blend of distance metrics (e.g., L-1 and L-2 norms) and the resulting valuation estimate was an ensemble model using my algorithm's assessment along with other automated evaluations if available. See the visual below for a high-level view of the architecture.
 
 ![Real Estate Recommendation System](https://github.com/RicardoFrankBarrera/Professional-Portfolio/blob/main/Project%20one-pagers/07%20Real%20Estate%20Recommendation%20System.jpg?raw=true)
+
+The initial user experience was actually quite nice, as the user simply put in an address into my system and an automated report would generate and be emailed to them; if the data existed in the ecosystem, the report would show up in a few seconds, otherwise I had a separate code path to collect and analyze all necessary data on the fly to try and generate a report which sometimes took 15 to 30 minutes. See below for an example of one of the first reports.
+
+Once I had the MVP developed, I worked on getting answers to key questions, for example:
+
+1. Who were the customers?
+2. What are each customer's needs and what scenarios are missing or gaps exist?
+3. What revenue models would make sense for each customer / scenario?
+4. How should I go about getting early adopters?
+
+It was in the process of developing this that I met up with 
 
 
 ### Markdown
