@@ -22,9 +22,13 @@ Ricardo
 ### Professional Projects
 
 [@Microsoft - Markov Model of Cosmos' Big Data Storage System](./markov-model.html).
+
 [@Microsoft - Optimizing Cosmos' Storage Compression Policy](./compression.html).
+
 [@Microsoft - Resource Management on Cosmos' Distributed System](./resource-management.html).
+
 [@Accolade - Health Assistant Recommendation System](./health-assistant.html).
+
 [@MyStartup - Real-Estate Investment Recommendation Service](./real-estate.html).
 
 ### Markdown
