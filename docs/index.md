@@ -1,8 +1,9 @@
 
 
+
 ## Welcome!
 
-I'm Ricardo Frank Barrera, a Program Manager and Data Scientist and this is my GitHub Page. I have experience managing teams large (20+) and small (me) but I'll be focusing this page on my Data Science projects. Though this page highlights what I've done professionally, I hope it educates others on how impactful, broadly applicable, and approachable Data Science is to most businesses.
+I'm Ricardo Frank Barrera, a Program Manager and Data Scientist and this is my GitHub Page. I have experience managing teams large (20+) and small (me) but I'll be focusing this page on my Data Science projects. Though this page is meant to highlight some of what I've done professionally, I hope it educates others on how impactful, broadly applicable, and approachable Data Science is to most businesses.
 
 In here and in my GitHub repository, you'll find:
 
@@ -15,9 +16,23 @@ Thanks for stopping by!
 
 Ricardo
 
+
 ### Professional Projects
 
 #### @Microsoft: Modeling Cosmos Store's Data Durability and Availability
+
+
+<details>
+  <summary> Click to expand!</summary>
+  
+  ## Heading
+  1. A numbered
+  2. list
+     * With some
+     * Sub bullets
+</details>
+
+
 
 This project was a LOT of fun and was my first project after joining the Big Data team at Microsoft as a Program Manager. I am pretty sure my manager intended it to be a throwaway project to help me learn, but we got some pretty good results from it.
 
@@ -142,7 +157,17 @@ Once I had the MVP developed, I worked on getting answers to key questions, for 
 3. What revenue models would make sense for each customer / scenario?
 4. How should I go about getting early adopters?
 
-It was in the process of developing this that I met up with 
+In the process of testing out the user experience and getting feedback, I ended up partnering with a client/customer to purchase and renovate a few investment properties. So, additional progress on the MVP was postponed in favor of other work. At the time, some of my next set of features / high-level roadmap looked like:
+
+* Identify and define key metrics to evaluate algorithm and business operation performance,
+	* Normally it's important to start with this first before building out, but I didn't think it made sense to define performance and evaluation before I've confirmed technical feasibility with an MVP
+* Augment the MVP model to include labor and material cost estimates for repairs and renovations,
+* Estimate renovation costs and after-repair value,
+* Provide financial models to analyze different investment strategies (30 YR mortgage, versus cash, etc.),
+* Create a chatbot (AI Advisor) to engage with clients for some basic scenarios (e.g., estimate their home value, provide leads to service providers, etc.)
+* Improve upon the image analyzer to identify property features and architectural styles (e.g., modern, craftsman, etc.),
+
+As you can see, there is a lot to do in the real estate space as it's complex and broad. I may dust off my old code and continue hacking away at this again in my spare time in the not too distant future. Just because Zillow failed with Zillow Offers, doesn't mean it's an impossible area to innovate in.
 
 
 ### Markdown
