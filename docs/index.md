@@ -17,7 +17,7 @@ Thanks for stopping by!
 Ricardo
 
 
-### Professional Projects (Click '>' to expand and collapse)
+### Professional Projects (Click sections below to expand / collapse)
 
 <details>
   <summary> <b>@Microsoft: Modeling Cosmos Store's Data Durability and Availability </b></summary>
@@ -49,10 +49,8 @@ The benefits of effectively modeling the system for this narrow goal were surpri
 
 
 
-
-
-
-#### @Microsoft: Optimizing Cosmos Store's Storage Compression Policies
+<details>
+  <summary> <b>@Microsoft: Optimizing Cosmos Store's Storage Compression Policies </b></summary>
 
 After my success with the Markov Model, I became the go-to mathematician on the team and was subsequently tasked with optimizing storage compression policies for [Cosmos](http://vldb.org/pvldb/vol14/p3148-jindal.pdf) (click for the whitepaper). This project was much simpler at face value than my Markov Model. Surprisingly, it turned out to be rather simple in the end, but could've been quite complicated hard circumstances been different. Let me elaborate.
 
@@ -68,12 +66,21 @@ The rest of the project was rather straightforward: gather compression statistic
 
 ![Compression](https://github.com/RicardoFrankBarrera/Professional-Portfolio/blob/main/Project%20one-pagers/04%20Optimize%20Data%20Compression%20Policies.jpg?raw=true)
 
-#### @Microsoft: Optimize Distributed Workload Execution with Smart Resource Management
+</details>
+
+
+<details>
+  <summary> <b>@Microsoft: Optimize Distributed Workload Execution with Smart Resource Management </b></summary>
+  
 If you've been reading from top-to-bottom, you'll notice a trend: use Data Science to save money and become more efficient. That trend continues with this project, however, this was not a resounding success. This wouldn't be an honest 
 
 ![Resource Management](https://github.com/RicardoFrankBarrera/Professional-Portfolio/blob/main/Project%20one-pagers/05%20Resource%20Management%20Container%20Sizing.jpg?raw=true)
 
-#### @Accolade: Recommendation System for Health Assistants
+</details>
+
+<details>
+  <summary> <b>@Accolade: Recommendation System for Health Assistants</b></summary>
+
 This project is a good example of what it takes to develop an intelligent service from the ground up. I had the fortunate privilege of defining, driving, and implementing the Data Science team's first production service, a Health Assistant Recommendation System. 
 
 Accolade's core business value-add comes from the engagement and relationship between Clients and Health Assistants. A Health Assistant efficiently and effectively navigates a Client through their healthcare experience, saving time and money while improving outcomes. As such, it is critical that the right Health Assistant be paired with the Client, as different Health Assistants have different expertise (e.g., some are Benefits experts, others are Clinicians, etc.). This Recommendation System's main goals were to improve Client outcomes while improving operating efficiency on Accolade's side. The metrics of choice to measure success for this were low-level operations metrics (e.g., Call Duration, Call Re-routes per Engagement) and high-level business metrics (e.g., Net Promoter Score). 
@@ -92,7 +99,11 @@ I left Accolade shortly deploying this service so I didn't get to see further it
 
 ![Accolade Recommendation System](https://github.com/RicardoFrankBarrera/Professional-Portfolio/blob/main/Project%20one-pagers/06%20Health%20Assistant%20Recommendation%20System.jpg?raw=true)
 
-#### @My Startup: Real Estate Investment Recommendation System
+</details>
+
+<details>
+  <summary> <b>@My Startup: Real Estate Investment Recommendation System</b></summary>
+
 Shortly after I left Accolade, I began to improve upon some personal analytics tools I made for my real estate investment hobby. I was curious to see how much of my process I could automate and what the user-experience would be like as I automated more of it.
 
 For those unfamiliar with real estate investing, there are some interesting data problems providing fun challenges. For instance:
@@ -163,6 +174,7 @@ In the process of testing out the user experience and getting feedback, I ended 
 
 As you can see, there is a lot to do in the real estate space as it's complex and broad. I may dust off my old code and continue hacking away at this again in my spare time in the not too distant future. Just because Zillow failed with Zillow Offers, doesn't mean it's an impossible area to innovate in.
 
+</details>
 
 ### Markdown
 
