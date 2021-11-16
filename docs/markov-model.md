@@ -1,6 +1,6 @@
 ---
 title: Markov Model
-layout: template
+layout: default
 filename: markov-model.md
 --- 
 
