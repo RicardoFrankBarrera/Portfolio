@@ -1,6 +1,7 @@
 
 
 
+
 ## Welcome!
 
 I'm Ricardo Frank Barrera, a Program Manager and Data Scientist and this is my GitHub Page. I have experience managing teams large (20+) and small (me) but I'll be focusing this page on my Data Science projects. Though this page is meant to highlight some of what I've done professionally, I hope it educates others on how impactful, broadly applicable, and approachable Data Science is to most businesses.
@@ -16,24 +17,13 @@ Thanks for stopping by!
 
 Ricardo
 
-
 ### Professional Projects
 
-#### @Microsoft: Modeling Cosmos Store's Data Durability and Availability
+# Table of contents
+1. [Introduction](#introduction)
 
-
-<details>
-  <summary> Click to expand!</summary>
-  
-  ## Heading
-  1. A numbered
-  2. list
-     * With some
-     * Sub bullets
-</details>
-
-
-
+#### @Microsoft: Modeling Cosmos Store's Data Durability and Availability 
+ <a name="introduction"></a>
 This project was a LOT of fun and was my first project after joining the Big Data team at Microsoft as a Program Manager. I am pretty sure my manager intended it to be a throwaway project to help me learn, but we got some pretty good results from it.
 
 For background, Microsoft's Big Data system is named [Cosmos](http://vldb.org/pvldb/vol14/p3148-jindal.pdf) (click for the whitepaper). As of 2011, Cosmos was storing approximately an Exabyte of data and had an operating expense budget of about $100,000,000 running several data centers to power many of Microsoft's services (e.g., Bing). Therefore, minor improvements to storage efficiency without impacting customer experience made a large impact on Microsoft's business.
