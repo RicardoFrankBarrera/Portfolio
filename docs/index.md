@@ -1,6 +1,6 @@
 ---
 title: Welcome!
-layout: template
+layout: default
 filename: index.md
 --- 
 
