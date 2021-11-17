@@ -2,7 +2,7 @@
 
 Chances are you've stumbled upon this because I directed you here, or you're researching me for some reason. Take a look around, read through my principles (listed below 👇), examine my work, and [let me know if you have any questions](mailto:ricardofrankbarrera@gmail.com). I look forward to getting to know you and possibly working with you!
 
-In this repository, you'll find my resume, one-pagers of some of my distributed systems and data science projects, and some code I've written for some of the projects I've worked on. However, I recommend you start with my [GitHub Page](https://ricardofrankbarrera.github.io/Data-Science-Portfolio/) which is more approachable and provides a far more detailed explanation for each project.
+In this repository, you'll find my resume, one-pagers of some of my distributed systems and data science projects, and some code I've written for some of the projects I've worked on. However, I recommend you start with my [GitHub Page](https://ricardofrankbarrera.github.io/Data-Science-Portfolio/) which is more approachable and provides a far more detailed explanation for some of my projects.
 
 *****************
 
@@ -15,10 +15,10 @@ I am available via **phone** and **email** and I will generally respond within a
 ## `My Principles`
 
 ### 🗣 Communication is everything
-I do not tolerate lousy communication and will insist upon clear and respectful communication at all times from anyone I work with, regardless of how smart or mission-critical they may be. Any endeavor worth striving for requires a cohesive team, and a team falls apart when communication breaks down.
+I do not tolerate lousy communication and will insist upon clear and respectful communication from anyone I work with, regardless of how smart or mission-critical they may be. Any endeavor worth striving for requires a cohesive team, and a team falls apart when communication breaks down.
 
 ### 🏠 Nurture and build communities
-Community exist in many forms (e.g., a team at work, friends in the neighborhood, a discussion group online), and flourish or die based upon culture which is very fragile and much be nurtured carefully. Be kind, patient, empathetic, supportive, and selfless, and push others to do the same.
+Community exist in many forms (e.g., a team at work, a discussion group online), and flourish or die based upon culture which is very fragile and must be nurtured carefully. Be kind, patient, empathetic, supportive, and push others to do the same.
 
 ### 📈 Choose growth opportunities
 I believe in being perpetually but manageably uncomfortable, taking on new challenges and intentionally breaking routine. It has served me well so far, and I think it's fun and humbling to intentionally stay a novice rather than sitting comfortably on experience and expertise. 
@@ -27,7 +27,7 @@ I believe in being perpetually but manageably uncomfortable, taking on new chall
 I care about doing the right thing even if it isn't in my best interest, and see this as a core value for any team I want to be a part of.
 
 ### 🙋🏻‍♂️ Relentlessly ask questions
-Innovation means constantly standing at the boundary of the known and the unknown. We must ask questions to constantly push that boundary. Also, life is so much more fun when approached with a child-like curiosity.
+Innovation means standing at the boundary of the known and the unknown, and we must ask questions to push that boundary. Also, life is so much more fun when approached with a child-like curiosity.
 
 ### 📊 Bring data to opinion fights
 The weight of an opinion should be proportional to the weight of the evidence backing it; the speaker's seniority, convinction, or skill with words takes a backseat to the data. Some of the best ideas I've heard have come from uncertain junior team-members, and some of the worst ideas I've heard have come from an overly confident expert.
