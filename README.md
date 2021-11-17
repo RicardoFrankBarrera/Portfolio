@@ -20,32 +20,25 @@ I do not tolerate lousy communication and will insist upon clear and respectful 
 ### ✅ Integrity over ego
 I care about doing the right thing even if it isn't in my best interest, and see this as a core value for any team to achieve long-term success.
 
+### 🏠 Nurture and build communities
+Community exist in many forms (e.g., a team at work, friends in the neighborhood, a discussion group online), and flourish or die based upon culture which is very fragile and much be nurtured carefully. Be kind, patient, empathetic, supportive, and selfless, and push others to do the same.
+
+### 📈 Choose growth opportunities
+I believe in being perpetually but manageably uncomfortable, taking on new challenges and intentionally breaking routine. It has served me well so far, and I think it's humbling to intentionally stay a novice rather than sitting comfortably on experience and expertise. 
+
 ### 🙋🏻‍♂️ Relentlessly ask questions
 Innovation means constantly standing at the boundary of the known and the unknown. We must ask questions to constantly push that boundary. Also, life is so much more fun when approached with a child-like curiosity.
 
 ### 📊 Bring data to opinion fights
-Tossing out an opinion and stubbornly standing by it without anything to back it up is foolish. I will 
-
-
-
-### 🗣 Communication is everything, especially in open-source.
-If you can't communicate your findings or collaborate with others, your career will be over before it begins. Science and engineering are team sports. Any successful open-source project will have a strong emphasis on communication, collaboration, empathy, and respect - not just engineering. [A thread](https://twitter.com/DynamicWebPaige/status/945702102214594560).
-
-### 📈 Choose growth opportunities.
-"Try never to be the smartest person in the room. And if you are, I suggest you invite smarter people… or find a different room." Always choose an opportunity to learn, to grow new skills. [Always](https://twitter.com/DynamicWebPaige/status/1050126083863924736).
-
-### 👭 Nurture and build communities.
-Communities are powerful, fragile things and must be nurtured over time. Be kind; have empathy; respect differing paces. **Everything** is about the community: making it collaborative, caring; a collective. A group of passionate people who care about each other's success. If you can build this, you can build anything.
+The weight of an opinion should be proportional to the weight of the evidence backing it; the speaker's seniority, convinction, or skill with words take a backseat to the data. Some of the best ideas I've heard have come from uncertain junior team-members, and some of the worst ideas I've heard have come from an overly confident expert.
 
 ### 📃 If you don't have documentation, you don't have a minimum viable product.
-Am so impressed by the level of care and effort each [@docsmsft](https://docs.microsoft.com) article, tutorial, quickstart, etc. receives before it's pushed to production. It's a commitment to empathy and respect: welcoming people at whatever level they are, and patiently helping them move up to the next level. Docs are a developer's first impression of your product. Make them awesome.
+It's a commitment to empathy and respect: welcoming people at whatever level they are, and patiently helping them move up to the next level. Docs are a developer's first impression of your product. Make them awesome.
 
 ### 🎁 Give without expecting a return.
-[Someone very wise](http://third-bit.com/) once told me that throughout a career, you'll meet people — and you'll help, support, and encourage them, not even thinking about it. But those influences _will_ change lives; and if you're lucky, you'll find out later.
+The selfless mentality is key for a team to achieve its potential. The best teams I've worked on were led by amazing people who embodied this every single day.
 
 ### 🙏 Believe in people, not acronyms.
-[This year](https://twitter.com/DynamicWebPaige/status/984584446316703746) was the first time I'd ever heard the phrase "_PhD or GTFO_", and I don't believe I've ever been more nauseated. Acronyms don't equate to worth, or industriousness, or character. Have met many brilliant folks without a degree; and PhD's without creativity, empathy, or work ethic. I'll choose the former, every time.
-
-![](https://github.com/dynamicwebpaige/info/blob/master/23926211_10155941132466672_7816746537214097786_o.jpg?raw=true)
+I don't put much weight behind credentials or accolades, as some of the smartest and most capable people I've met didn't have stellar credentials or amazing accolades to their name. This reminds me of a saying I live by when recruiting and interviewing candidates: "you can fix skill gaps, but you can't fix character flaws"
 
 *******************
