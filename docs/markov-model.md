@@ -12,7 +12,7 @@ For background, Microsoft's Big Data system is named [Cosmos](http://vldb.org/pv
 
 My task was to recreate the same study done at [Google](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/36737.pdf) (click for the whitepaper) for our system. In short, Google aggregated a lot of system log data, analyzed it, and pushed it through a Markov Model to predict data durability (how often data would be lost) and availability (how often data was accessible).
 
-The Markov Model's assumptions don't fit reality because a Markov Model assumes event independence, but we know that hardware fails are correlated; a machine that has failed before is more likely to fail again. I believe there is a relevant quote for every occasion including this one, courtesy of George Box: "All models are wrong, but some are useful." This model turned out to be very useful.
+The Markov Model's assumptions don't fit reality because a Markov Model assumes event independence, but we know that hardware fails are correlated; a machine that has failed before is more likely to fail again. I believe there is a relevant quote for every occasion including this one, courtesy of George Box: "All models are wrong, but some are useful." Despite being wrong, this model turned out to be very useful.
 
 Creating this model proved to be challenging for various reasons:
 
@@ -27,6 +27,8 @@ The benefits of effectively modeling the system for this narrow goal were surpri
 2. Reduce customer service outages due to capacity management issues,
 3. Advise on network topologies and bandwidth requirements for data centers,
 4. Evaluate the pros/cons of other replication schemes (e.g., Erasure Encoding)
+
+It's impressive how many unintended benefits and use-cases come up from simple models.
 
 ![Markov](https://github.com/RicardoFrankBarrera/Professional-Portfolio/blob/main/Project%20one-pagers/01%20Storage%20Markov%20Model.jpg?raw=true)
 

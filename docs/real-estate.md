@@ -59,7 +59,7 @@ The initial user experience was actually quite nice, as the user simply put in a
 Once I had the MVP developed, I worked on getting answers to key questions, for example:
 
 1. Who were the customers?
-2. What are each customer's needs and what scenarios are missing or gaps exist?
+2. What are each customer's needs, what scenarios are entirely missing, etc.?
 3. What revenue models would make sense for each customer / scenario?
 4. How should I go about getting early adopters?
 
