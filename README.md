@@ -1,4 +1,4 @@
-# Welcome to my Professional Portfolio!
+# Welcome to my Portfolio!
 
 Chances are you've stumbled upon this because I directed you here, or you're researching me for some reason. Take a look around, read through my principles (listed below 👇), examine my work, and [let me know if you have any questions](mailto:ricardofrankbarrera@gmail.com). I look forward to getting to know you and possibly working with you!
 
