@@ -4,7 +4,7 @@ layout: default
 filename: index.md
 --- 
 
-## Welcome!
+# Welcome!
 
 I'm Ricardo Frank Barrera, a Program Manager and Data Scientist and this is my GitHub Page. I have experience managing teams large (20+) and small (me) but I'll be focusing this page on my Data Science projects. Though this page is meant to highlight some of what I've done professionally, I hope it educates others on how impactful, broadly applicable, and approachable Data Science is to most businesses.
 
@@ -19,7 +19,7 @@ Thanks for stopping by!
 
 Ricardo
 
-### Professional Projects
+# Professional Projects
 
 [@Microsoft - Markov Model of Cosmos' Big Data Storage System](./markov-model.html)
 

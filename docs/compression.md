@@ -4,7 +4,7 @@ layout: default
 filename: compression.md
 --- 
 
-#### @Microsoft: Optimizing Cosmos Store's Storage Compression Policies
+# @Microsoft: Optimizing Cosmos Store's Storage Compression Policies
 
 After my success with the Markov Model, I became the go-to mathematician on the team and was subsequently tasked with optimizing storage compression policies for [Cosmos](http://vldb.org/pvldb/vol14/p3148-jindal.pdf) (click for the whitepaper). This project was much simpler at face value than my Markov Model. Surprisingly, it turned out to be rather simple in the end, but could've been quite complicated had circumstances been different. Let me elaborate.
 

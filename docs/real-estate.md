@@ -4,7 +4,7 @@ layout: default
 filename: real-estate.md
 --- 
 
-#### @My Startup: Real Estate Investment Recommendation System
+# @My Startup: Real Estate Investment Recommendation System
 Shortly after I left Accolade, I began to improve upon some personal analytics tools I made for my real estate investment hobby. I was curious to see how much of my process I could automate and what the user-experience would be like as I automated more of it.
 
 For those unfamiliar with real estate investing, there are some interesting data problems providing fun challenges. For instance:

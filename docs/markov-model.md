@@ -4,7 +4,7 @@ layout: default
 filename: markov-model.md
 --- 
 
-#### @Microsoft: Modeling Cosmos Store's Data Durability and Availability 
+# @Microsoft: Modeling Cosmos Store's Data Durability and Availability 
 
 This project was a LOT of fun and was my first project after joining the Big Data team at Microsoft as a Program Manager. I am pretty sure my manager intended it to be a throwaway project to help me learn, but we got some pretty good results from it.
 
