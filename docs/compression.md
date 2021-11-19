@@ -6,7 +6,7 @@ filename: compression.md
 
 # @Microsoft: Optimizing Cosmos Store's Storage Compression Policies
 
-After my success with the Markov Model, I became the go-to mathematician on the team and was subsequently tasked with optimizing storage compression policies for [Cosmos](http://vldb.org/pvldb/vol14/p3148-jindal.pdf) (click for the whitepaper). This project was much simpler at face value than my Markov Model. Surprisingly, it turned out to be rather simple in the end, but could've been quite complicated had circumstances been different. Let me elaborate.
+After my success with the [Markov Model](./markov-model.html), I became the go-to mathematician on the team and was subsequently tasked with optimizing storage compression policies for [Cosmos](http://vldb.org/pvldb/vol14/p3148-jindal.pdf) (click for the whitepaper). This project was much simpler at face value than my Markov Model. Surprisingly, it turned out to be rather simple in the end, but could've been quite complicated had circumstances been different. Let me elaborate.
 
 A data-center has resources (e.g., storage, computation, network, etc.) but these resources are not independent when executing tasks. If I'm writing data to a distributed storage system, I'm consuming a bit of every resource along the way: disk space to store files, memory to store data sent over the network, network to transfer data, and compute to orchestrate and execute everything. Thus, I needed to make sure we didn't use too much computation for the extra storage savings because different compression algorithms consume different amounts of CPU to compress the same piece of data. 
 
