@@ -54,7 +54,12 @@ Explainability and conciseness is important, so the initial CMA report was inten
 
 ![Real Estate Recommendation System](https://github.com/RicardoFrankBarrera/Professional-Portfolio/blob/main/Project%20one-pagers/07%20Real%20Estate%20Recommendation%20System.jpg?raw=true)
 
-The initial user experience was actually quite nice, as the user simply put in an address into my system and an automated report would generate and be emailed to them; if the data existed in the ecosystem, the report would show up in a few seconds, otherwise I had a separate code path to collect and analyze all necessary data on the fly to try and generate a report which sometimes took 15 to 30 minutes. See below for an example of one of the first reports.
+The initial user experience was actually quite nice, as the user simply put in an address into my system and an automated report would generate and be emailed to them; if the data existed in the ecosystem, the report would show up in a few seconds, otherwise I had a separate code path to collect and analyze all necessary data on the fly to try and generate a report which sometimes took 15 to 30 minutes. See below for an example of one of the first automated reports I created.
+
+![CMA Page 1](https://github.com/RicardoFrankBarrera/Data-Science-Portfolio/blob/main/docs/assets/img/CMA_pg1.png?raw=true)
+
+![CMA Page 2](https://github.com/RicardoFrankBarrera/Data-Science-Portfolio/blob/main/docs/assets/img/CMA_pg2.png?raw=true)
+
 
 Once I had the MVP developed, I worked on getting answers to key questions, for example:
 
