@@ -32,7 +32,7 @@ I thought class time and type might be major contributors to the class attendanc
 
 I repeated Bartlett and Fligner-Killeen for each class time and type grouping using only the top 3 instructors by count of classes taught for that group, as we need adequate samples for the tests to be meaningful. From the dozen pairings, I found that all but one should be fine for the ANOVA test (don't know why the 12PM class was so different regarding variance).
 
-After running ANOVA on the classes which met the variance criteria, I found that there was no statistically significant different in the mean attendance between teachers in all but one (7PM had one teacher with 20% fewer attendees on average).
+After running ANOVA on the classes which met the variance criteria, I found that there was no statistically significant difference in the mean attendance between teachers in all but one (7PM had one teacher with 20% fewer attendees on average).
 
 These results are good news for the owner who can now stress less about hunting for great instructors and paying them extra to stay because the instructors seem to be fungible. It is still important to carry forward with caution because the data may have been materially incomplete / biased, I may have been wrong in proceeding with ANOVA though the normal distribution assumption didn't fit, and so on. Armed with this information, he changed his hiring and compensation structure. The change reduced his business expenses by 10% which can be rather significant in a low-margin business with high overhead.
 

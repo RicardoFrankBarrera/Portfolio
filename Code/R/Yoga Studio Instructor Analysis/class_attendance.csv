@@ -1,5 +1,4 @@
-Date,Start Time,End Time,In Attendance,Class Size,Class,Teacher,TeacherID,Room
-,,,,,,,,
+date,start_time,end_time,in_attendance,class_size,class_type,teacher,teacher_id,room
 8/28/17,6:00 AM,7:00 AM,17,100,Power Vinyasa,Liandren,100000294,
 8/28/17,9:00 AM,10:00 AM,13,100,Hot Hatha,Emily,100000296,
 8/28/17,12:00 PM,1:00 PM,27,120,Power Vinyasa,CJ,100000273,
