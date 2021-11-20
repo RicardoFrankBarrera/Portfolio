@@ -20,20 +20,24 @@ If there was no statistically significant variance between instructor class atte
 
 The test used to compare groups depends on the data's characteristics. I ran a few tests on the data to see it's characteristics:
 
-* Shapiro Wilk test for normal distribution
+* Quantile-quantile (QQ) plot to test for normal distribution
 * Bartlett's test for homogeneity of variance
 * Fligner-Killeen's test for homogeneity of variance (to double-check Bartlett's test since it's more sensitive)
 
-For the first analysis, I am grouping all of the data by teachers. When I ran the Shapiro Wilk test, I determined the the data was not normally distributed (Shapiro Wilk p < 0.05). I could try to transform the data to make it normal, but the One-way ANOVA test is fairly robust and can handle the normality assumption being violated, so I decided to proceed with it so long as the homogeneity of variance assumption was true.
+For the first analysis, I am grouping all of the data by teachers. When I ran graphed the QQ plot, I determined the the data was not normally distributed, as the data strayed far from the 45-degree line shown below. 
 
-I ran Bartlett's test and concluded that class attendance definitely varied (non-homogenous), so I couldn't do ANOVA. That result, however, told me I needed to look at the problem differently because it was very clear there was a difference in attendance variance between teachers.
+![Yoga QQ Plot](https://github.com/RicardoFrankBarrera/Data-Science-Portfolio/blob/main/docs/assets/img/Yoga%20%Studio%QQ-Plot.png?raw=true)
 
-I thought class time and type might be major contributors to the class attendance mean and variance, so I decided to analyze teachers' class attendance within the same class time and type (e.g., Vinyasa Yoga @ 530PM). If I reran the variance tests within those groups, I might get a different result and possibly be able to use ANOVA to compare means between teachers.
+I could try to transform the data to make it normal, but the One-way ANOVA test is fairly robust and can handle the normality assumption being violated, so I decided to proceed with it so long as the homogeneity of variance assumption was true.
 
-I repeated Bartlett and Fligner-Killeen for each class time and type grouping using only the top 3 instructors by count of classes taught for that group, as we need adequate samples for the tests to be meaningful. From the dozen pairings, I found that all but one should be fine for the ANOVA test (don't know why the 12PM class was so different regarding variance).
+I ran Bartlett's test and concluded that class attendance definitely violated the homogeneity of variance requirement, so I couldn't use ANOVA. That result, however, told me I needed to look at the problem differently.
+
+I thought class time might be a major contributor to the class attendance mean and variance, so I decided to analyze teachers' class attendance within the same class time (e.g., Vinyasa Yoga @ 530PM). If I reran the variance tests within those groups, I might get a different result and possibly be able to use ANOVA to compare means between teachers.
+
+I repeated Bartlett and Fligner-Killeen for each class time grouping using only the top 5 instructors by count of classes taught for that group, as we need adequate samples for the tests to be meaningful. From the several groups, I found that all but one should be fine for the ANOVA test (don't know why the 12PM class was so different regarding variance).
 
 After running ANOVA on the classes which met the variance criteria, I found that there was no statistically significant difference in the mean attendance between teachers in all but one (7PM had one teacher with 20% fewer attendees on average).
 
-These results are good news for the owner who can now stress less about hunting for great instructors and paying them extra to stay because the instructors seem to be fungible. It is still important to carry forward with caution because the data may have been materially incomplete / biased, I may have been wrong in proceeding with ANOVA though the normal distribution assumption didn't fit, and so on. Armed with this information, he changed his hiring and compensation structure. The change reduced his business expenses by 10% which can be rather significant in a low-margin business with high overhead.
+This result was good news for the owner who could stress less about hunting for great instructors and paying them extra to stay because the instructors seem to be fungible. It is still important to carry forward with caution because the data may have been materially incomplete / biased, I may have been wrong in proceeding with ANOVA though the normal distribution assumption didn't fit, and so on. Armed with this information, he changed his hiring and compensation structure. The change reduced his business expenses by 10% which can be rather significant in a low-margin business with high overhead.
 
 [Back](./)
