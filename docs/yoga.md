@@ -10,7 +10,7 @@ This was a fun and quick project (and got me some free yoga classes). A friend o
 
 He sent over a few years of class attendance data and asked me to figure out whether the instructors were making a difference in class attendance. I structured this analysis as shown in the diagram below:
 
-![Yoga Instructor ANOVA](https://github.com/RicardoFrankBarrera/Professional-Portfolio/blob/main/Project%20one-pagers/08%20Yoga%20Studio%20Employee%20Study.jpg?raw=true)
+![Yoga Instructor ANOVA](https://github.com/RicardoFrankBarrera/Data-Science-Portfolio/blob/main/docs/assets/img/Yoga%20Studio%20QQ-plot.png?raw=true)
 
 Statistical testing can be very valuable for businesses of all sizes and provides a great compass for determining investigation approach and evaluating potential strategies quickly and cheaply. It is important to setup the experiment well to provide the correct data, use the appropriate test given data characteristics, and draw the right conclusions given the data and test. However, the test value is heavily reliant upon setup and data.
 
