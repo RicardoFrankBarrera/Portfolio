@@ -31,3 +31,5 @@ Ricardo
 
 [@MyStartup - Real-Estate Investment Recommendation Service](./real-estate.html)
 
+[@Consulting - Yoga Studio Instructor Compensation Strategy](./yoga.html)
+
