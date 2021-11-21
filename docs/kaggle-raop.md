@@ -18,16 +18,16 @@ I'll provide a quick Data Science 101 primer for those unfamiliar with the conce
 * Data can have additional value with minor representational changes (e.g., augment a date value with whether it is a weekday, weekend, etc.)
 * Data dimensionality and numerical scaling greatly influences how well models can train and perform (e.g., representing "Hello" and "hello" using the same numerical representation loses some information but reduces dimensionality and may help the model train and perform better)
 * Choosing the evaluation metric is important; for instance, accuracy alone isn't great with rare events like diagnosing cancer because a model will just always say "No cancer" and have a high score but be worthless
-* Data must be balanced so a model has 
+* When categorizing (e.g., predicting yes or no), the data set must be balanced so the model has adequate samples of each class to train and learn from
 * Different models excel in different tasks (e.g., Convolutional Neural Networks are great for image analysis)
-* Models can be combined together and fed into other models--think of it as a king and his advisors, and the king learns through experience which advisors' opinions are or less valuable during specific situations
+* Models can be combined together and fed into other models; think of it as a king and his advisors, and the king learns through experience which advisors' opinions are or less valuable during specific situations
 * The most valuable parts of a dataset are not immediately obvious, so we must explore all of them and see which improve performance and which don't add sufficient value worth the additional model complexity
-* Datasets must be split into three different purposes: train, test, and cross-validate
+* Datasets must be split into three different sections for different purposes: train, test, and cross-validate
 	* Train: used to fit the model to the data
 	* Cross-validate: used to tune the model's hyperparameters
 	* Test: used to evaluate model performance on data it hasn't used for training and tuning
 
-Most novice data scientists will approach a problem like this and try to shoehorn the data into a single powerful model, tune it, and call it a day. Intuition often pushes us toward fancier and more powerful tools. Seasoned practitioners, however, know that an ensemble of models, each tailored to specific parts of the data/problem, with properly cleaned and processed data, is the better approach.
+Most novice data scientists will approach a problem like this and try to shoehorn the data into a single powerful model, tune it, and call it a day. Intuition and laziness often pushes us toward fancier and more powerful tools. Seasoned practitioners, however, know that an ensemble of models, each tailored to specific parts of the data/problem, with properly cleaned and processed data, is the better approach.
 
 ## Modeling Process and Insights
 
@@ -45,12 +45,14 @@ Quite a bit goes into the model to get it to perform well, but the process is fa
 
 Some high-level insights from this model:
 
-* A larger vocabulary set has diminishing returns
+* A larger vocabulary set has diminishing returns (see below)
 * Decision Trees performed poorly for categorical and text features
 * Decision Trees outperformed for numerical features
 * Timestamp is very valuable and significantly boosted performance
 * The ensemble model also led to a significant performance boost
 * K-Nearest Neighbors and Logistic Regression outperformed on text and categorical features
+
+![Accuracy with more vocab](https://github.com/RicardoFrankBarrera/Data-Science-Portfolio/blob/main/docs/assets/img/RAOP%20-%20Vocab%20Diminishing%20Returns.png)
 
 ## Closing Thoughts
 
