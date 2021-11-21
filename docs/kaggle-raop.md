@@ -52,7 +52,7 @@ Some high-level insights from this model:
 * The ensemble model also led to a significant performance boost
 * K-Nearest Neighbors and Logistic Regression outperformed on text and categorical features
 
-![Accuracy with more vocab](https://github.com/RicardoFrankBarrera/Data-Science-Portfolio/blob/main/docs/assets/img/RAOP%20-%20Vocab%20Diminishing%20Returns.png)
+![Accuracy with more vocab](https://github.com/RicardoFrankBarrera/Data-Science-Portfolio/blob/main/docs/assets/img/RAOP%20-%20Vocab%20Diminishing%20Returns.png?raw=true)
 
 ## Closing Thoughts
 
