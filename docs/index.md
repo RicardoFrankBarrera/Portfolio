@@ -25,8 +25,6 @@ Ricardo
 
 [@Microsoft - Optimizing Cosmos' Storage Compression Policy](./compression.html)
 
-[@Microsoft - Resource Management on Cosmos' Distributed System](./resource-management.html)
-
 [@Accolade - Health Assistant Recommendation System](./health-assistant.html)
 
 [@Accolade - Data Science 101 - Hypothesis Driven Development](./data-science-101.html)
