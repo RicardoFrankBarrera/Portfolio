@@ -29,6 +29,8 @@ Ricardo
 
 [@Accolade - Health Assistant Recommendation System](./health-assistant.html)
 
+[@Accolade - Data Science 101 - Hypothesis Driven Development](./data-science-101.html)
+
 [@My Startup - Real-Estate Investment Recommendation Service](./real-estate.html)
 
 [@Consulting - Yoga Studio Instructor Compensation Strategy](./yoga.html)
