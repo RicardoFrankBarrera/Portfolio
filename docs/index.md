@@ -15,7 +15,7 @@ In here and in my GitHub repository, you'll find:
 * Code I've written for various projects, 
 * Data science projects I've developed and models I've trained
 
-Thanks for stopping by!
+Thanks for stopping by! 
 
 Ricardo
 
