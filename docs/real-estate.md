@@ -7,7 +7,7 @@ filename: real-estate.md
 # @My Startup: Real Estate Investment Recommendation System
 Shortly after I left Accolade, I began to improve upon some personal analytics tools I made for my real estate investment hobby. I was curious to see how much of my process I could automate and what the user-experience would be like as I automated more of it.
 
-## Data challenges in real estate
+## Data Challenges in Real Estate
 
 For those unfamiliar with real estate investing, there are some interesting data problems providing fun challenges. For instance:
 
@@ -24,7 +24,7 @@ For those unfamiliar with real estate investing, there are some interesting data
 * data is **expensive to collect**
 	* getting a home inspector, for example, may cost $300 to $500
 
-## Replicating my judgement and automating my process
+## Training AI to Think Like I Do
 
 So, I set out to see if I could infer as much information as possible from what was available online in an automated fashion. There are plenty of sites with records written records (e.g., county records indicating square footage), but the one really valuable untapped resource at the time was the property's photos.  
 
@@ -70,7 +70,7 @@ Some examples you can quickly play with:
 <img src="https://imgr.search.brave.com/wnq-_eniO0BvxwQHB9AY6uhSbrgnmmCW3eJIA54DLtQ/fit/1200/1200/ce/1/aHR0cHM6Ly9zMy51/cy1lYXN0LTIuYW1h/em9uYXdzLmNvbS9o/YXZlbmxpZmVzdHls/ZXMvMTM5NTgwMzYt/MS5qcGc" width="300" height="200">
 </p>
 
-## Defining and creating the vision
+## Defining and Creating the Vision
 
 Emboldened by my success with the Neural Network, I decided to work on creating a Real Estate Investment Advisor platform where residential homebuyers could rely upon and learn from to become their own best advocate in an ecosystem notorious for taking advantage of the ignorant and unprepared. I'm passionate about fairness and education, and I'd seen many examples of friends suffering immensely because of poor real estate choices. Ideally, I'd be able to make a decent cashflowing business in the process. 
 
@@ -99,7 +99,7 @@ The initial user experience was actually quite nice, as the user simply put in a
 
 ![CMA Page 2](https://github.com/RicardoFrankBarrera/Data-Science-Portfolio/blob/main/docs/assets/img/CMA_pg2.png?raw=true)
 
-## Gathering feedback and iterating on the MVP
+## Gathering Feedback and Iterating on the MVP
 
 Once I had the MVP developed, I worked on getting answers to key questions, for example:
 

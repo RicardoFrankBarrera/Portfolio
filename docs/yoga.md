@@ -6,7 +6,7 @@ filename: yoga.md
 
 # @Consulting: Yoga Instructor Compensation Strategy
 
-## Business context
+## Business Context
 
 This was a fun and quick project (and got me some free yoga classes). A friend of mine owns a fairly successful yoga studio in Seattle, but wasn't sure whether he had the right compensation strategy and recruiting approach for his instructors to maximize revenue. The yoga community is filled with many different personality types and he spent a lot of time courting the most popular, experienced, and sometimes difficult/flaky instructors thinking it would boost attendance and revenue.
 
@@ -14,7 +14,7 @@ He sent over a few years of class attendance data and asked me to figure out whe
 
 ![Yoga Instructor ANOVA](https://github.com/RicardoFrankBarrera/Professional-Portfolio/blob/main/Project%20one-pagers/08%20Yoga%20Studio%20Employee%20Study.jpg?raw=true)
 
-## Statistical testing framework and process
+## Statistical Testing Framework and Process
 
 Statistical testing can be very valuable for businesses of all sizes and provides a great compass for determining investigation approach and evaluating potential strategies quickly and cheaply. It is important to setup the experiment well to provide the correct data, use the appropriate test given data characteristics, and draw the right conclusions given the data and test. However, the test value is heavily reliant upon setup and data.
 
