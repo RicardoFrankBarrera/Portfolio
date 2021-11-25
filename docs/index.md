@@ -34,3 +34,6 @@ Ricardo
 [@Consulting - Yoga Studio Instructor Compensation Strategy](./yoga.html)
 
 [@Kaggle - Modeling Altruistic Requests on Reddit](./kaggle-raop.html)
+
+[Reference - Data Science Architectures](./data-science-arch.html)
+
