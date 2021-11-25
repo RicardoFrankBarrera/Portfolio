@@ -6,11 +6,15 @@ filename: yoga.md
 
 # @Consulting: Yoga Instructor Compensation Strategy
 
+## Business context
+
 This was a fun and quick project (and got me some free yoga classes). A friend of mine owns a fairly successful yoga studio in Seattle, but wasn't sure whether he had the right compensation strategy and recruiting approach for his instructors to maximize revenue. The yoga community is filled with many different personality types and he spent a lot of time courting the most popular, experienced, and sometimes difficult/flaky instructors thinking it would boost attendance and revenue.
 
 He sent over a few years of class attendance data and asked me to figure out whether the instructors were making a difference in class attendance. I structured this analysis as shown in the diagram below:
 
 ![Yoga Instructor ANOVA](https://github.com/RicardoFrankBarrera/Professional-Portfolio/blob/main/Project%20one-pagers/08%20Yoga%20Studio%20Employee%20Study.jpg?raw=true)
+
+## Statistical testing framework and process
 
 Statistical testing can be very valuable for businesses of all sizes and provides a great compass for determining investigation approach and evaluating potential strategies quickly and cheaply. It is important to setup the experiment well to provide the correct data, use the appropriate test given data characteristics, and draw the right conclusions given the data and test. However, the test value is heavily reliant upon setup and data.
 
@@ -37,6 +41,8 @@ I thought class time might be a major contributor to the class attendance mean a
 I repeated Bartlett and Fligner-Killeen for each class time grouping using only the top 5 instructors by count of classes taught for that group, as we need adequate samples for the tests to be meaningful. From the several groups, I found that all but one should be fine for the ANOVA test (don't know why the 12PM class was so different regarding variance).
 
 After running ANOVA on the classes which met the variance criteria, I found that there was no statistically significant difference in the mean attendance between teachers in all but one (7PM had one teacher with 20% fewer attendees on average).
+
+## Closing Thoughts
 
 This result was good news for the owner who could stress less about hunting for great instructors and paying them extra to stay because the instructors seem to be fungible. It is still important to carry forward with caution because the data may have been materially incomplete / biased, I may have been wrong in proceeding with ANOVA though the normal distribution assumption didn't fit, and so on. Armed with this information, he changed his hiring and compensation structure. The change reduced his business expenses by 10% which can be rather significant in a low-margin business with high overhead.
 
