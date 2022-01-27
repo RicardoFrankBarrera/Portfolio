@@ -49,27 +49,6 @@ The model has high variance and high bias, meaning that slightly different photo
 
 Nevertheless, this flawed model was still quite useful because it matched my personal judgment closely enough in the median case with enough photos; if I filtered outliers, I often got an overall quality score for a property that was within +/- 0.5 of what I would judge it. I had reasonably successfully trained this model to evaluate homes like I did (for the most part) and could scale out the search and evaluation process while I slept.
 
-**Play with it and see for yourself! (Copy the url below and use an image url of your choosing** 
-
-http://ec2-54-242-171-249.compute-1.amazonaws.com/grade?img\_link=**\<insert\_image\_url>**
-
-Some examples you can quickly play with:
-
-<p align="center">
-<img src="https://www.ecommission.com/wp-content/uploads/2016/08/iStock_4213308_SMALL-750x422.jpg" width="300" height="200"> 
-<img src="https://cdn.carrot.com/uploads/sites/36899/2021/02/an-ugly-house.jpg" width="300" height="200">
-</p>
-
-<p align="center">
-<img src="https://imgr.search.brave.com/tus83Oefadp9Sj5d96e19SRnqvwHldQDES7urRK8p5w/fit/1200/1200/ce/1/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzgwL2Vl/LzIxLzgwZWUyMWY3/MjQxODZmMTgzOGRm/MzQwNjdmYjkyOWI5/LmpwZw" width="300" height="200"> 
-<img src="https://media.istockphoto.com/photos/burnt-house-interior-after-fire-picture-id1253259520?k=20&m=1253259520&s=612x612&w=0&h=SFWFnt977Pti4yIyaz3qKYa3CJByE7s5cV-JaNEx8yg=" width="300" height="200">
-</p>
-
-<p align="center">
-<img src="https://imgr.search.brave.com/pKC0pnDGgnXcLEJgHiYPKDEti8OGaby_YC7Wfn8D8vo/fit/1080/1200/ce/1/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzZkL2Vi/LzUzLzZkZWI1MzUy/ODUyOWQ5YWExMTE1/OWQxN2QyNWM2Y2I3/LmpwZw" width="300" height="200"> 
-<img src="https://imgr.search.brave.com/wnq-_eniO0BvxwQHB9AY6uhSbrgnmmCW3eJIA54DLtQ/fit/1200/1200/ce/1/aHR0cHM6Ly9zMy51/cy1lYXN0LTIuYW1h/em9uYXdzLmNvbS9o/YXZlbmxpZmVzdHls/ZXMvMTM5NTgwMzYt/MS5qcGc" width="300" height="200">
-</p>
-
 ## Defining and Creating the Vision
 
 Emboldened by my success with the Neural Network, I decided to work on creating a Real Estate Investment Advisor platform where residential homebuyers could rely upon and learn from to become their own best advocate in an ecosystem notorious for taking advantage of the ignorant and unprepared. I'm passionate about fairness and education, and I'd seen many examples of friends suffering immensely because of poor real estate choices. Ideally, I'd be able to make a decent cashflowing business in the process. 
