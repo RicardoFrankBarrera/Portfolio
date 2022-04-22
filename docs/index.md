@@ -10,7 +10,6 @@ I'm Ricardo Frank Barrera, a Program Manager and Data Scientist and this is my G
 
 In here and in my GitHub repository, you'll find:
 
-* My latest and greatest [resume](https://github.com/RicardoFrankBarrera/Data-Science-Portfolio/blob/main/Resume/Ricardo%20Frank%20Barrera%20-%202021%20Resume.pdf?raw=true),
 * Write-ups regarding professional projects I've done, specifically describing the context along with a high-level overview (e.g., goals, approach, impact, and lessons),
 * Code I've written for various projects, 
 * Data science projects I've developed and models I've trained
