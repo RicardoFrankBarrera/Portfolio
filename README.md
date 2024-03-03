@@ -18,7 +18,7 @@ I am available via **phone** and **email** and I will generally respond within a
 I do not tolerate lousy communication and will insist upon clear and respectful communication from anyone I work with, regardless of how smart or mission-critical they may be. Any endeavor worth striving for requires a cohesive team, and a team falls apart when communication breaks down.
 
 ### 🏠 Nurture and build communities
-Community exist in many forms (e.g., a team at work, a discussion group online), and flourish or die based upon culture which is very fragile and must be nurtured carefully. Be kind, patient, empathetic, supportive, and push others to do the same.
+Community exists in many forms (e.g., a team at work, a discussion group online), and flourish or die based upon culture which is very fragile and must be nurtured carefully. Be kind, patient, empathetic, supportive, and push others to do the same.
 
 ### 📈 Choose growth opportunities
 I believe in being perpetually but manageably uncomfortable, taking on new challenges and intentionally breaking routine. It has served me well so far, and I think it's fun and humbling to intentionally stay a novice rather than sitting comfortably on experience and expertise. 
