@@ -32,7 +32,7 @@ Innovation means standing at the boundary of the known and the unknown, and we m
 ### 📊 Bring data to opinion fights
 The weight of an opinion should be proportional to the weight of the evidence backing it; the speaker's seniority, convinction, or skill with words takes a backseat to the data. Some of the best ideas I've heard have come from uncertain junior team-members, and some of the worst ideas I've heard have come from an overly confident expert.
 
-### 🎁 Give without expecting a return
+### 🎁 Give without expecting anything in return
 Selflessness is key for a team to achieve its potential. The best teams I've worked on were led by amazing people who embodied this value, every single day.
 
 ### 🏆 Character over credentials
