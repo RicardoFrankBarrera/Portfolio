@@ -12,7 +12,7 @@ This project was a LOT of fun and was my first project after joining the Big Dat
 
 For background, Microsoft's Big Data system is named [Cosmos](http://vldb.org/pvldb/vol14/p3148-jindal.pdf) (click for the whitepaper). As of 2011, Cosmos was storing approximately an Exabyte of data and had an operating expense budget of about $100,000,000 running several data centers to power many of Microsoft's services (e.g., Bing). Therefore, minor improvements to storage efficiency without impacting customer experience made a large impact on Microsoft's business.
 
-My task was to recreate the same study done at [Google](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/36737.pdf) (click for the whitepaper) for our system. In short, Google aggregated a lot of system log data, analyzed it, and pushed it through a Markov Model to predict data durability (how often data would be lost) and availability (how often data was accessible).
+My task was to recreate the same study done at [Google](https://www.usenix.org/legacy/event/osdi10/tech/full_papers/Ford.pdf) (click for the whitepaper) for our system. In short, Google aggregated a lot of system log data, analyzed it, and pushed it through a Markov Model to predict data durability (how often data would be lost) and availability (how often data was accessible).
 
 ## Modeling Process
 
